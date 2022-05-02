@@ -1,7 +1,17 @@
-.MainBanner{
-    background-color: rgb(11, 20, 45);
+.container{
+    width: 100%;
+    height: 100%;
+    background: #162337;
 }
 
-.MainBanner h1{
-    color: blue;
+.menu ul{
+    display: inline-flex;
+    margin: 50p;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 20p;
+    color: #415065;
+    cursor: pointer;
 }
